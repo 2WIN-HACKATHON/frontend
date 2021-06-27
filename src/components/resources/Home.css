@@ -1,3 +1,22 @@
 .Home__div {
-    min-height: 100vh;
+    min-height: 70vh;
+    margin-top: 15%;
+    margin-left: 25%;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+.Heading{
+    font-size: 60px;
+}
+
+.marketing{
+    font-size: 25px;
+    font-style: italic;
+}
+
+.subtit{
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
 }

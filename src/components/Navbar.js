@@ -7,7 +7,6 @@ function Navbar() {
     const [click, setClick] = useState(false);
     const [button, setButton] = useState(true);
 
-
     const handleClick=()=> setClick(!click);
     const closeMobileMenu=()=> setClick(false);
 
@@ -29,9 +28,11 @@ function Navbar() {
         <nav className="navbar">
             <div className="navbar-container">
                 <Link className="navbar-logo">
-                2WIN-HACKATHON
+                2WIN-HACK
                 </Link>
-                
+                <div className="menu-icon" onClick={handleClick}>
+                    <i class={click ? "fas fa-times": "fas fa-bars"} />
+                </div>
                 <ul className={click ? "nav-menu active" : "nav-menu"}>
                     <li className="nav-item">
                         <Link to='/' className='nav-links' onClick={closeMobileMenu}>
@@ -39,8 +40,13 @@ function Navbar() {
                         </Link>
                     </li>
                     <li className="nav-item">
-                        <Link to='/Services' className='nav-links' onClick={closeMobileMenu}>
-                            Services
+                        <Link to='/Mail' className='nav-links' onClick={closeMobileMenu}>
+                            Compose
+                        </Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link to='/Inbox' className='nav-links' onClick={closeMobileMenu}>
+                            Inbox
                         </Link>
                     </li>
                     <li className="nav-item">
@@ -48,15 +54,15 @@ function Navbar() {
                             Login
                         </Link>
                     </li>
+                    
                     <li className="nav-item">
-                        <Link to='/Login' 
+                        <Link to='/SignUp' 
                         className='nav-links-mobile' 
                         onClick={closeMobileMenu}>
                             Sign Up
                         </Link>
                     </li>
                 </ul>
-                {button && <Button buttonStyle='btn--outline' >SIGN UP</Button>}
             </div>
         </nav>     
         </>
