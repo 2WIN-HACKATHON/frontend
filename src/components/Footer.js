@@ -23,7 +23,7 @@ function Footer() {
                         Banka  </button> &nbsp;
                     <div className="social-icons">
                         <a className="social-icon-link facebook"
-                            href='https://www.facebook.com/Vkmandal24/'
+                            href='https://www.facebook.com/bankayash'
                             target='_blank'
                             arial-label='Facebook'
                             rel="noreferrer"
@@ -32,7 +32,7 @@ function Footer() {
                         </a>
                         <a 
                             className="social-icon-link instagram"
-                            href='https://www.instagram.com/_ethical_psycho/'
+                            href='https://www.instagram.com/_yash_rajjj/'
                             target='_blank'
                             arial-label='Instagram'
                             rel="noreferrer"
@@ -50,7 +50,7 @@ function Footer() {
                         </Link>
                         <a 
                             className="social-icon-link Linkedin"
-                            href='https://www.linkedin.com/in/vishal-mandal-b8b126154/'
+                            href='https://www.linkedin.com/in/yash-raj-651728169/'
                             target='_blank'
                             arial-label='Linkedin'
                             rel="noreferrer"

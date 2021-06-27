@@ -1,3 +1,6 @@
 .inbox__rowise{
     min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    background-color: honeydew;
 }

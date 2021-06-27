@@ -1,13 +1,13 @@
 import React from 'react'
-
+import './resources/inbox.css'
 function Inbox() {
     return (
         <div className="inbox__rowise">
-            <box>Heyy It's my 1st Mail</box>
-            <box>Heyy It's my 1st Mail</box>
-            <box>Heyy It's my 1st Mail</box>
+            <div>It's My 1st Mail</div>
+            <div>It's My 1st Mail</div>
+            <div>It's My 1st Mail</div>
         </div>
     )
 }
 
-export default Inbox
+export default Inbox;

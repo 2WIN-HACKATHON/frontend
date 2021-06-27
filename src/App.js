@@ -6,6 +6,8 @@ import Login from './components/Login'
 import Mail from './components/Mail'
 import MailBody from './components/MailBody'
 import Inbox from './components/Inbox'
+import SignUp from './components/Signup'
+
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
       <Route path='/Mail' component={Mail} />
       <Route path='/Inbox' component={Inbox} />
       <Route path='/MailBody' component={MailBody} />
+      <Route path='/SignUp' component={SignUp} />
       </Switch>
       <Footer />
     </Router>

@@ -1,5 +1,5 @@
 .Mail__form {
-  background-color: grey;
+  
   min-height: 100vh;
   padding: 7%;
   margin: auto;
@@ -10,8 +10,7 @@ input {
   box-sizing: border-box;
   border: none;
   font-size: 1.3rem;
-  padding-left: 1.5rem;
-  padding-bottom: 1rem;
+  padding: 0.6rem;
   box-shadow: inset 0px -3px 0px 0px rgba(187, 187, 187, 0.2);
   transition: box-shadow 0.2s ease-in;
 }
